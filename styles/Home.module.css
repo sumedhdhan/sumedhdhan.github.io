@@ -1,0 +1,121 @@
+.container {
+  background-color: rgb(0, 0, 0);
+  height: calc(100vh - 110px);
+  color: rgb(255, 255, 255);
+}
+.two_col {
+  display: flex;
+  height: calc(100vh - 110px);
+  align-items: center;
+  justify-content: space-evenly;
+}
+.left_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  height: 100%;
+}
+.left_col_top p {
+  font-size: 4vh;
+}
+.left_col_top h1 {
+ /* font-size: 72px;*/
+  font-size: 8vh;
+  padding-bottom: 1rem;
+  line-height: 3.5rem;
+}
+.left_col_top h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(179, 127, 242);
+  letter-spacing: 1px;
+  font-style: italic;
+  padding-bottom: 0rem;
+}
+.left_col_bottom p {
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: rgb(231, 231, 231);
+  padding-top:0px;
+}
+.left_col_bottom .input {
+  display: flex;
+  align-items: center;
+}
+.left_col_bottom .input p {
+  color: rgb(245, 191, 64);
+  font-size: 16px;
+}
+.left_col_bottom .input input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 10px;
+  color: rgb(242, 221, 255);
+}
+.input input::placeholder {
+  color: rgb(123, 123, 123);
+}
+
+.canvasEl {
+  width: 500px;
+  height: 300px;
+  cursor: grab;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 900px) {
+  .two_col {
+    flex-direction: column;
+    height:max-content;
+    padding:4vw;
+  }
+  .left_col_top p {
+    font-size: 4vh;
+    margin-top: -1rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .left_col_top h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(179, 127, 242);
+    letter-spacing: 1px;
+    font-style: italic;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .left_col_bottom{    
+    margin-top:-4rem;
+  }
+
+  .left_col_bottom p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(231, 231, 231);
+  }
+
+  .left_col {
+    gap: 5rem;
+    height: unset;
+    padding:4vw;
+  }
+
+  .left_col_bottom .input {
+    display: flex;
+    align-items: center;
+    margin-top: 0rem;
+  }
+  
+  .canvasEl {
+    width: 306px;
+    height: 200px;
+    cursor: grab;
+    align-items: center;
+    object-fit: cover;
+  }
+  
+}
