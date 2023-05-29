@@ -32,6 +32,9 @@
   align-items: center;
 }
 @media screen and (max-width: 425px) {
+  .footer{
+    position: relative!important;
+  }
   .footer div {
     font-size: 1.2rem;
   }
