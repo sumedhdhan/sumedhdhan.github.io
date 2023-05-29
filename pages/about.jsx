@@ -18,7 +18,7 @@ const About = () => {
   const [showBackend, setShowBackend] = useState(false); //code 1
   const [showEng, setShowEng] = useState(false); //code 2
   const [showHobbies, setShowHobbies] = useState(false); //code 3
-  const [showMenu, setShowMenu] = isMobile ? useState(false) : useState(true);
+  const [showMenu, setShowMenu] = useState(true);
 
   function viewNewSkill(code){
       setShowFrontend(false);
