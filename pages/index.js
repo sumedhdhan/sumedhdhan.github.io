@@ -41,7 +41,7 @@ export default function Home() {
         <title>Sumedh Dhanvanthry</title>
         <meta name="description" content="Sumedh's personal website" />
         
-        <link rel="icon" href="/weblogo.ico" />
+        <link rel="icon" href="weblogo.ico" />
       </Head>
       <div className={styles.body}>
         <div className={styles.two_col}>
