@@ -150,7 +150,7 @@ const About = () => {
         >
           <span className={style.ml_2}> /*</span>
           <span>
-                  <motion.div style={{color: textColor, fontWeight: "bold", fontSize:40}}>
+                  <motion.div style={{color: textColor, fontWeight: "bold", fontSize:30}}>
                  A bit about me:
                 </motion.div>
      

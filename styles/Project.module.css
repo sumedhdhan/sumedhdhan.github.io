@@ -142,12 +142,18 @@
     width: 100%;
     padding: 1vh 1rem;
   }
-
+  .project_card_bottom {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    display: inline-block; 
+  
+  }
   .project_card_bottom_last {
     margin-top: 0rem;
     margin-bottom: 4rem;
     padding: 0.5rem 1rem;
-    padding-bottom:5rem;
+    padding-bottom:20vh;
     display: inline-block; 
   }
 

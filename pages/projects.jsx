@@ -91,9 +91,7 @@ const Projects = () => {
                       <p>BoardAtWork</p> 
                     </motion.div>
                     </div>
-                    <div>
-                      <span>Dec 2022</span>
-                    </div>
+                   
                   </div>
                   <div className={style1.project_card_body}>
                     <p>A high-resolution XY-plotter used to copy image files onto a whiteboard with 3 depth values. Applications include text transcription and data-plotting, as well as good old-fashioned portraiture.</p>
@@ -130,9 +128,7 @@ const Projects = () => {
                       <p>Fit Cheque</p> 
                     </motion.div>
                     </div>
-                    <div>
-                      <span>Jan 2023</span>
-                    </div>
+
                   </div>
                   <div className={style1.project_card_body}>
                     <p>An online price-guessing game for up to 10 players built using Node.js, React, and Socket.IO. Based around 25000+ clothing articles scraped from modern fashion retailer SSENSE.</p>
@@ -142,7 +138,7 @@ const Projects = () => {
                 <div className={style1.project_card_bottom_last}>
                   <div>
                     
-                  <motion.button layout className={style1.project_card_bottom} style={{backgroundColor:"transparent", border:"none", margin:0, paddingTop:"0rem"}} whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://github.com/Abhinav-Bala/FitCheque" rel="noreferrer" target="_blank"> 
+                  <motion.button layout className={style1.project_card_bottom_last} style={{backgroundColor:"transparent", border:"none", margin:0, paddingBottom:"0rem"}} whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://github.com/Abhinav-Bala/FitCheque" rel="noreferrer" target="_blank"> 
 
                     
                     <a href="https://github.com/Abhinav-Bala/FitCheque" rel="noreferrer" target="_blank">
