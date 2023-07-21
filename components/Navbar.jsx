@@ -20,18 +20,28 @@ const Navbar = () => {
         <Link href="/about" passHref>
           <li className={router.pathname == "/about" ? `${style.active}` : ""}>
           <motion.div whileHover={{scale:1.1}} whileTap={{scale:0.8}}>  
-            about me
+            about
             </motion.div>
           </li>
         </Link>
         <Link href="/projects" passHref>
           <li className={router.pathname == "/projects" ? `${style.active}` : ""}>
           <motion.div whileHover={{scale:1.1}} whileTap={{scale:0.8}}> 
-            my projects
+            projects
             </motion.div>
           </li>
         </Link>
 
+        <a href="https://stylings.substack.com" target="_blank" passHref>
+        
+          <li className={router.pathname == "/writing" ? `${style.active}` : ""}>
+          <motion.div whileHover={{scale:1.1}} whileTap={{scale:0.8}}> 
+            writing
+            </motion.div>
+          </li>
+          
+        </a>
+        
     
 
        
