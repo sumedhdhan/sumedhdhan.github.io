@@ -49,6 +49,14 @@ const About = () => {
   }
 
   return (
+    <div>
+      <Head>
+        <title>Sumedh Dhanvanthry - About</title>
+        <meta name="description" content="Sumedh's personal website" />
+        
+        <link rel="icon" href="weblogo.ico" />
+      </Head>
+        
     <div className={style.about} onMouseMove={handleMouse}>
       <div className={style.skill_menu} onClick={(e) => setShowMenu(!showMenu)}>
         {" "}
@@ -522,6 +530,7 @@ const About = () => {
           </div>
         </motion.div>
       )}
+    </div>
     </div>
   );
 };
