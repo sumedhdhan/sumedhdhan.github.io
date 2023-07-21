@@ -25,6 +25,12 @@ const Projects = () => {
     }
 
   return (
+    <div>
+
+      <title>Sumedh Dhanvanthry - Projects</title>
+        <meta name="description" content="Sumedh's personal website" />
+        <link rel="icon" href="weblogo.ico" />
+    
     <div className={style2.about} onMouseMove={handleMouse}>
         <div className={style1.project_container}>
         <motion.div
@@ -213,9 +219,8 @@ const Projects = () => {
         </div>
         </motion.div>
       </div>
-      
-      
     </div>
+  </div>
   );
 };
 

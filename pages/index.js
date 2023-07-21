@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <div className={styles.container} onMouseMove={handleMouse}>
       <Head>
-        <title>Sumedh Dhanvanthry - Welcome</title>
+        <title>Sumedh Dhanvanthry</title>
         <meta name="description" content="Sumedh's personal website" />
         
         <link rel="icon" href="weblogo.ico" />
