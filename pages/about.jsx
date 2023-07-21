@@ -164,7 +164,7 @@ const About = () => {
      
             </span>
           <span>I&apos;m an undergraduate student passionate about the intelligent design and implementation of complex systems. I&apos;ve worked across the stack in  my personal
-          and professional ventures, and am currently specializing in SQL Server management and reporting. </span>
+          and professional ventures, and am currently a Junior Application Developer at YM Inc., developing merchandising apps, reports, and scripts. </span>
           <br></br>
       
           <span>As an avid learner, I&apos;m always looking for new opportunities to put my 
