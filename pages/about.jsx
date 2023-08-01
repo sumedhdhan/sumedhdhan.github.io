@@ -158,7 +158,7 @@ const About = () => {
         >
           <span className={style.ml_2}> /*</span>
           <span>
-                  <motion.div style={{color: textColor, fontWeight: "bold", fontSize:30}}>
+                  <motion.div className={style.bit} style={{color: textColor}}>
                  A bit about me:
                 </motion.div>
      
@@ -198,7 +198,7 @@ const About = () => {
           }}
         >
           <div className={style.right_container}>
-          <img src="./Sumedh Headshot.jpg" alt="picture of me" className={style.center_image}></img>
+          <img src="./stratford2.jpg" alt="picture of me" className={style.center_image}></img>
             <h3 style={{paddingTop: "1rem"}}>File Explorer</h3>
             <div className={style.right_interest}>
               
