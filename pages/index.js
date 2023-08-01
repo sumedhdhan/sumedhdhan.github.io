@@ -6,6 +6,8 @@ import styles from "../styles/Home.module.css";
 import { AnimatePresence, motion, useMotionValue, useTransform } from "framer-motion";
 import Model from "../components/Model";
 import Model2 from "../components/Model2";
+import Substack from "../components/Substack";
+import SubstackFeed from "../components/SubstackFeed";
 export default function Home() {
   const router = useRouter();
   const [text, setText] = useState("");
@@ -39,13 +41,13 @@ export default function Home() {
     <div className={styles.container} onMouseMove={handleMouse}>
       <Head>
         <title>Sumedh Dhanvanthry</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="description" content="Sumedh's personal website" />
-        
         <link rel="icon" href="weblogo.ico" />
       </Head>
       <div className={styles.body}>
         <div className={styles.two_col}>
-          <div className={styles.left_col}>
+          <div className={styles.left_col}>            
             <AnimatePresence>
               <motion.div
                 className={styles.left_col_top}
@@ -167,10 +169,24 @@ export default function Home() {
             </div>
           </div>
           <div>
-          <div style={{border: "thin solid #5d17b3", objectFit:"fill"}}>
-            <Model />
-          </div>
-          
+            <div style={{border: "thin solid #5d17b3", objectFit:"fill"}}>
+              <Model />   
+            </div>
+            {/*
+            <div  className={styles.left_col_bottom}>
+              Subscribe to my Substack:
+              <Substack
+                substackUrl="stylings.substack.com"
+                placeholder="example@gmail.com"
+                buttonText="Subscribe"
+                theme="purple"
+              />  
+            </div>
+            
+            <SubstackFeed
+                substackUrl="stylings.substack.com"
+              posts={3}
+              />       */}
           </div>
         </div>
       </div>
