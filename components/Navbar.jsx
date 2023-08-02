@@ -32,7 +32,7 @@ const Navbar = () => {
           </li>
         </Link>
 
-        <a href="https://stylings.substack.com" target="_blank" rel="noreferrer">
+        <Link href="/writing" target="_blank" rel="noreferrer">
         
           <li className={router.pathname == "/writing" ? `${style.active}` : ""}>
           <motion.div whileHover={{scale:1.1}} whileTap={{scale:0.8}}> 
@@ -40,7 +40,7 @@ const Navbar = () => {
             </motion.div>
           </li>
           
-        </a>
+        </Link>
         
     
 

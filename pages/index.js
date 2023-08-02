@@ -24,6 +24,11 @@ export default function Home() {
           pathname: "/projects",
         });
       }
+      if (text === "writing") {
+        router.push({
+          pathname: "/writing",
+        });
+      }
     };
     handleInput();
   }, [router, text]);
@@ -172,21 +177,7 @@ export default function Home() {
             <div style={{border: "thin solid #5d17b3", objectFit:"fill"}}>
               <Model />   
             </div>
-            {/*
-            <div  className={styles.left_col_bottom}>
-              Subscribe to my Substack:
-              <Substack
-                substackUrl="stylings.substack.com"
-                placeholder="example@gmail.com"
-                buttonText="Subscribe"
-                theme="purple"
-              />  
-            </div>
             
-            <SubstackFeed
-                substackUrl="stylings.substack.com"
-              posts={3}
-              />       */}
           </div>
         </div>
       </div>

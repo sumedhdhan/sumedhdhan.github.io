@@ -2,17 +2,8 @@
 
 import style1 from "../styles/Project.module.css";
 import style2 from "../styles/About.module.css";
-import { BsCodeSlash, BsCodeSquare, BsFolderFill, BsGear, BsGearFill, BsMarkdownFill, BsPenFill } from "react-icons/bs";
-import { FiChevronRight, FiChevronDown } from "react-icons/fi";
-import { HiOutlineMenu } from "react-icons/hi";
-import { AiOutlineClose } from "react-icons/ai";
-import { useState } from "react";
-import { AnimatePresence, motion, useMotionValue, useTransform } from "framer-motion";
 
-import { SiCplusplus, SiFramer, SiHtml5, SiJavascript, SiMatrix, SiReact, SiThreedotjs } from "react-icons/si";
-import {FaCubes, FaDatabase, FaJava, FaPython, FaMagnet, FaDumbbell, FaMusic} from "react-icons/fa"
-import {GiComputing, GiGuitar, GiLogicGateAnd} from "react-icons/gi"
-import {IoIosJournal} from "react-icons/io"
+import { AnimatePresence, motion, useMotionValue, useTransform } from "framer-motion";
 
 const Projects = () => {
 

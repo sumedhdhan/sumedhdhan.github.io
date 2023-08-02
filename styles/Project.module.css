@@ -16,10 +16,36 @@
   
 }
 
+.project_substack_logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+}
+
+.project_substack_signup{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 1vw;
+}
+
 .project_container {
   margin: auto;
   width: 83.67%;
   padding-top: 1rem;
+  height: 100%;
+  margin-bottom: 3rem;
+  /*margin-left: 5rem;*/
+}
+
+.project_writing_container {
+  margin: auto;
+  width: 83.67%;
+  padding-top: 0.5rem;
   height: 100%;
   margin-bottom: 3rem;
   /*margin-left: 5rem;*/
@@ -132,6 +158,13 @@
 
 .project_subtitle{
   font-size: 1.4rem;
+  color:rgb(255, 255, 255);
+  margin:auto;
+  width:100%;
+}
+
+.project_writing_subtitle{
+  font-size: 1.5rem;
   color:rgb(255, 255, 255);
   margin:auto;
   width:100%;

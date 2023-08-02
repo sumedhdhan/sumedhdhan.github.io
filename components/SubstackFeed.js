@@ -1,12 +1,14 @@
 // components/SubstackFeed.js
 import React, { useEffect } from 'react';
 
-const SubstackFeed = ({ substackUrl, posts }) => {
+const SubstackFeed = ({ substackUrl, posts, layout, colors }) => {
   useEffect(() => {
     // Configuration for the Substack Feed widget
     window.SubstackFeedWidget = {
       substackUrl: substackUrl,
       posts: posts,
+      layout: layout,
+      colors: colors
     };
 
     // Load the Substack Feed widget script
@@ -18,7 +20,7 @@ const SubstackFeed = ({ substackUrl, posts }) => {
     return () => {
       document.body.removeChild(script);
     };
-  }, [substackUrl, posts]);
+  }, [substackUrl, posts, layout, colors]);
 
   return <div id="substack-feed-embed"></div>;
 };

@@ -68,7 +68,7 @@
 }
 .about .ml_2 {
   margin-left: -15px;
-  color:rgb(138, 235, 150);
+  color:rgb(0, 0, 0);
 }
 .about .right {
   background-color: rgb(19, 17, 31);
@@ -113,7 +113,7 @@
 
 .about .bit {
   font-weight: bold;
-  font-size:3rem;
+  font-size:50px;
 }
 
 .about .center_image {
@@ -159,9 +159,7 @@
   .about .right .skill {
     font-size: 16px;
   }
-  .about .ml_2 {
-   display: none;
-  }
+
 }
 @media screen and (max-width: 510px) {
   .about .left {
