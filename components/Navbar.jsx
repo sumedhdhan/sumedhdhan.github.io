@@ -32,7 +32,7 @@ const Navbar = () => {
           </li>
         </Link>
 
-        <Link href="/writing" target="_blank" rel="noreferrer">
+        <Link href="/writing" passHref>
         
           <li className={router.pathname == "/writing" ? `${style.active}` : ""}>
           <motion.div whileHover={{scale:1.1}} whileTap={{scale:0.8}}> 

@@ -58,7 +58,7 @@ const Writing = () => {
       </div>
         <div>
         <motion.div  className={style1.project_substack_logo} whileHover={{scale:1.1}} whileTap={{scale:0.9}}> 
-        <a href="https://stylings.substack.com" target="_blank">
+        <a href="https://stylings.substack.com" target="_blank" rel="noreferrer">
             <img src = "./stylings.png">
             </img>
             </a>
