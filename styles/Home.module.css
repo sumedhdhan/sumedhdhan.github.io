@@ -57,6 +57,7 @@
 }
 .input input::placeholder {
   color: rgb(123, 123, 123);
+  overflow:visible;
 }
 
 .canvasEl {
