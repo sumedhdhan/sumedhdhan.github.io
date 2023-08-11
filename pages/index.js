@@ -167,7 +167,7 @@ export default function Home() {
                 <p>&#x276F;</p>
                 <input
                   type="text"
-                  placeholder="'about' or 'projects' or 'writing'"
+                  placeholder="'about', 'projects', 'writing'"
                   onChange={(e) => setText(e.target.value)}
                 />
               </motion.div>
