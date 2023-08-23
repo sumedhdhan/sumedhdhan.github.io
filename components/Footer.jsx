@@ -66,21 +66,21 @@ const Footer = () => {
       <div className={style.footer_date}>
       {(current.getMinutes() < 10) && (current.getHours() < 10) &&
         <div>
-          accessed at 0{current.getHours()}:0{current.getMinutes()} | {date}
+          refreshed at 0{current.getHours()}:0{current.getMinutes()} | {date}
         </div>
       }
 
        {(current.getMinutes() < 10) && (current.getHours() > 9) &&
         <div>
-          accessed at {current.getHours()}:0{current.getMinutes()} | {date}
+          refreshed at {current.getHours()}:0{current.getMinutes()} | {date}
         </div>
       }
 
       {(current.getMinutes() > 10) && (current.getHours() < 10) &&
-       <div> accessed at 0{time + " | " + date} </div>}
+       <div> refreshed at 0{time + " | " + date} </div>}
 
       {(current.getMinutes() > 10) && (current.getHours() > 9) &&
-       <div> accessed at {time + " | " + date} </div>}
+       <div> refreshed at {time + " | " + date} </div>}
 
     </div>
     </div>
