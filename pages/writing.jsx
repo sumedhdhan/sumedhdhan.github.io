@@ -54,7 +54,7 @@ const Writing = () => {
                     </h>
         </motion.div>
         <div className={style1.project_writing_subtitle}>
-        In November 2022 I started a Substack page called Stylings. Browse my work below!
+        In November 2022 I started a Substack page called Stylings. Browse my posts below!
       </div>
         <div>
         <motion.div  className={style1.project_substack_logo} whileHover={{scale:1.1}} whileTap={{scale:0.9}}> 
