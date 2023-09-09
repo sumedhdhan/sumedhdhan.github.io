@@ -362,7 +362,7 @@ const About = () => {
                       <p>
                       <motion.div whileHover={{scale:1.05,transition: {duration: 0.2,repeat: 0  }}}> 
 
-                        <FaDatabase/> &nbsp;SQL reporting
+                        <FaDatabase/> &nbsp;SQL
                         </motion.div>
 
                       </p>
