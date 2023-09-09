@@ -8,7 +8,7 @@ import { HiOutlineMenu } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import { AnimatePresence, motion, useMotionValue, useTransform } from "framer-motion";
-import { SiCplusplus, SiFramer, SiHtml5, SiJavascript, SiMatrix, SiReact, SiThreedotjs } from "react-icons/si";
+import { SiCplusplus, SiCsharp, SiFramer, SiHtml5, SiJavascript, SiMatrix, SiReact, SiThreedotjs, SiWindows } from "react-icons/si";
 import {FaCubes, FaDatabase, FaJava, FaPython, FaMagnet, FaDumbbell, FaMusic} from "react-icons/fa"
 import {GiComputing, GiGuitar, GiLogicGateAnd} from "react-icons/gi"
 import {IoIosJournal} from "react-icons/io"
@@ -163,13 +163,13 @@ const About = () => {
                 </motion.div>
      
             </span>
-          <span>I&apos;m an undergraduate student passionate about the intelligent design and implementation of complex systems. I&apos;ve worked across the stack in  my personal
-          and professional ventures, and am currently on co-op as a Junior Application Developer at YM Inc. Fashion House, developing merchandising apps, reports, and scripts. </span>
+          <span>I&apos;m a second-year undergraduate student passionate about the intelligent design and implementation of complex systems. I&apos;ve worked across the stack in  my personal
+          and professional ventures, and am currently seeking co-op internship opportunities for the winter term &#40;January to April 2024&#41;. </span>
           <br></br>
       
           <span>As an avid learner, I&apos;m always looking for new opportunities to put my 
           ever-developing skillset to use. I am grateful to be surrounded by a  
-          network of similarly ambitious individuals here at  Waterloo, and I am  
+          network of similarly ambitious individuals here at  UWaterloo, and I am  
           looking forward to making my mark on the world of software development.</span>
           <span>&nbsp;</span>
 
@@ -268,6 +268,11 @@ const About = () => {
                       </p>
                       <p>
                       <motion.div whileHover={{scale:1.05,transition: {duration: 0.2,repeat: 0  }}}> 
+                        <SiWindows/> &nbsp;winforms
+                        </motion.div>
+                      </p>
+                      <p>
+                      <motion.div whileHover={{scale:1.05,transition: {duration: 0.2,repeat: 0  }}}> 
                         <SiFramer/> &nbsp;framer motion
                         </motion.div>
                       </p>
@@ -335,6 +340,13 @@ const About = () => {
                       <p>
                       <motion.div whileHover={{scale:1.05,transition: {duration: 0.2,repeat: 0  }}}> 
 
+                        <SiCplusplus/> &nbsp;C/C++
+                        </motion.div>
+
+                      </p>  
+                      <p>
+                      <motion.div whileHover={{scale:1.05,transition: {duration: 0.2,repeat: 0  }}}> 
+
                         <FaPython /> &nbsp;python
                         </motion.div>
 
@@ -342,14 +354,15 @@ const About = () => {
                       <p>
                       <motion.div whileHover={{scale:1.05,transition: {duration: 0.2,repeat: 0  }}}> 
 
-                        <SiCplusplus/> &nbsp;C/C++
+                        <SiCsharp/> &nbsp;C#
                         </motion.div>
 
                       </p>
+                      
                       <p>
                       <motion.div whileHover={{scale:1.05,transition: {duration: 0.2,repeat: 0  }}}> 
 
-                        <FaDatabase/> &nbsp;SQL, SSMS, SSRS
+                        <FaDatabase/> &nbsp;SQL reporting
                         </motion.div>
 
                       </p>
