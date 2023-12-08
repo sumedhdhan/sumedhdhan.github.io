@@ -1,4 +1,4 @@
-My personal website, showcasing my skills and projects.
+My personal website, showcasing my skills and projects. Visit me at [www.sumedh.ca](https://www.sumedh.ca/)
 
 Please note that the 3D model displayed on the homepage is not my own creation. 
 
