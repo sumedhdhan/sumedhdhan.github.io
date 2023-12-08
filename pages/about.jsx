@@ -198,7 +198,7 @@ const About = () => {
           }}
         >
           <div className={style.right_container}>
-          <img src="./stratford2.jpg" alt="picture of me" className={style.center_image}></img>
+          <img src="./square_bridge_sumedh_bw.png" alt="picture of me" className={style.center_image}></img>
             <h3 style={{paddingTop: "1rem"}}>File Explorer</h3>
             <div className={style.right_interest}>
               
