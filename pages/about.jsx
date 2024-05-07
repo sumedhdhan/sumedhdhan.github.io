@@ -164,7 +164,7 @@ const About = () => {
      
             </span>
           <span>I&apos;m a second-year undergraduate student passionate about the intelligent design and implementation of complex systems. I&apos;ve worked across the stack in  my personal
-          and professional ventures, and am currently on a work term as a Software Engineer at CIBC. </span>
+          and professional ventures, and am currently searching for a Fall 2024 internship. </span>
           <br></br>
       
           <span>As an avid learner, I&apos;m always looking for new opportunities to put my 
