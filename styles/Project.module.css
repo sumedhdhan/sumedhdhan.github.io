@@ -103,8 +103,11 @@
 }
 
 .project_card_image{
-  padding: 1rem;
-  border-radius: 25px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  border-radius: 50px;
+  width: 60%;
 }
 
 .project_card_head p {
@@ -123,6 +126,7 @@
   margin-bottom:0rem;
 }
 .project_card_bottom {
+  margin: auto;
   margin-top: 0rem;
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
@@ -140,7 +144,7 @@
   padding: 0.5rem 1rem;
   border-radius: 6px;
   color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(102, 100, 238);
   margin-left: 2rem;
   font-size: large;
  
@@ -151,7 +155,7 @@
   padding: 0.5rem 1rem;
   border-radius: 6px;
   color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(102, 100, 238);
   margin-left: 2rem;
   font-size: large;
 }

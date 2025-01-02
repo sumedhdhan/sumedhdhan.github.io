@@ -16,7 +16,6 @@ const Footer = () => {
   return (
     <div className={style.footer}>
       <div>
-        <p className={style.find}>my socials:</p>
         <motion.div whileHover={{scale:1.5,transition: {duration: 0.2,repeat: 0  }}}> 
         <a
           href="mailto:sumedh.dhan@gmail.com"

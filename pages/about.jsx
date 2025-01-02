@@ -50,8 +50,8 @@ const About = () => {
 
   return (
     <div>
+        <title>Sumedh Dhanvanthry</title>
     
-        <title>Sumedh Dhanvanthry - About</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="description" content="Sumedh's personal website" />
         <link rel="icon" href="weblogo.ico" />
@@ -163,8 +163,8 @@ const About = () => {
                 </motion.div>
      
             </span>
-          <span>I&apos;m a second-year undergraduate student passionate about the intelligent design and implementation of complex systems. I&apos;ve worked across the stack in  my personal
-          and professional ventures, and am currently searching for a Fall 2024 internship. </span>
+          <span>I&apos;m a third-year undergraduate student passionate about the intelligent design and implementation of complex systems. I&apos;ve worked across the stack in  my personal
+          and professional ventures, and am currently searching for a Summer 2025 internship. </span>
           <br></br>
       
           <span>As an avid learner, I&apos;m always looking for new opportunities to put my 

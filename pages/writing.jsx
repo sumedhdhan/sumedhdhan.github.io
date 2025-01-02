@@ -18,8 +18,8 @@ const Writing = () => {
 
   return (
     <div>
+        <title>Sumedh Dhanvanthry</title>
 
-      <title>Sumedh Dhanvanthry - Writing</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="description" content="Sumedh's personal website" />  
         <link rel="icon" href="weblogo.ico" />

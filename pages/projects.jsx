@@ -17,8 +17,7 @@ const Projects = () => {
 
   return (
     <div>
-
-      <title>Sumedh Dhanvanthry - Projects</title>
+      <title>Sumedh Dhanvanthry</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="description" content="Sumedh's personal website" />  
         <link rel="icon" href="weblogo.ico" />
@@ -86,6 +85,72 @@ const Projects = () => {
                     <div>
                     <motion.div 
                         whileHover={{scale:1.1}}>
+                      <p>WatRank</p> 
+                    </motion.div>
+                    </div>
+                   
+                  </div>
+                  <div className={style1.project_card_body}>
+                    <p>Your new go-to platform for gathering job postings from WaterlooWorks, anonymously sharing job statuses, and crowd-sourcing insights..</p>     
+                    <img src="./watrank.jpeg" alt="Craven" className={style1.project_card_image}></img>
+
+                  </div>
+                </div>
+                <div className={style1.project_card_bottom}>
+                 
+                  <motion.button layout className={style1.project_card_bottom} style={{backgroundColor:"transparent", border:"none", margin:0, paddingTop:"0rem"}} whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://www.youtube.com/watch?v=OZhDTu3HLAY" rel="noreferrer" target="_blank"> 
+                   
+                    <a href="https:watrank.com" rel="noreferrer" target="_blank" data-inline="true">
+                         Use WatRank today
+                    </a>
+                    
+                  </motion.button>
+                    <motion.button className={style1.project_card_bottom} style={{backgroundColor:"transparent", border:"none", margin:0, paddingTop:"0.5rem"}} whileHover={{scale:1.1}} whileTap={{scale:0.9}}> 
+                    <a href="https://github.com/TheMangoMen" rel="noreferrer" target="_blank" data-inline="true">
+                     Check out the code
+                    </a>
+                    </motion.button>
+                
+                </div>
+                <div className={style1.project_card_top}>
+                  <div className={style1.project_card_head}>
+                    <div>
+                    <motion.div 
+                        whileHover={{scale:1.1}}>
+                      <p>Craven</p> 
+                    </motion.div>
+                    </div>
+                   
+                  </div>
+                  <div className={style1.project_card_body}>
+                    <p>A kitchen security system to keep your roommates in check and your snacks in stock.</p>     
+                    <img src="./craven.png" alt="Craven" className={style1.project_card_image}></img>
+
+                  </div>
+                </div>
+                <div className={style1.project_card_bottom}>
+                 
+                  <motion.button layout className={style1.project_card_bottom} style={{backgroundColor:"transparent", border:"none", margin:0, paddingTop:"0rem"}} whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://www.youtube.com/watch?v=OZhDTu3HLAY" rel="noreferrer" target="_blank"> 
+                   
+                    <a href="https://www.youtube.com/clip/UgkxH7k9ATEGDzXkWW4jzYlcF5s5La8ZCkPV" rel="noreferrer" target="_blank" data-inline="true">
+                        Our demo video
+                    </a>
+                    
+                    </motion.button>
+                    <motion.button className={style1.project_card_bottom} style={{backgroundColor:"transparent", border:"none", margin:0, paddingTop:"0.5rem"}} whileHover={{scale:1.1}} whileTap={{scale:0.9}}> 
+                    <a href="https://devpost.com/software/craven" rel="noreferrer" target="_blank" data-inline="true">
+                     Check out on Devpost
+                    </a>
+                    </motion.button>
+                
+                </div>
+
+                  
+                <div className={style1.project_card_top}>
+                  <div className={style1.project_card_head}>
+                    <div>
+                    <motion.div 
+                        whileHover={{scale:1.1}}>
                       <p>BoardAtWork</p> 
                     </motion.div>
                     </div>
@@ -96,7 +161,7 @@ const Projects = () => {
                     <img src="./boardatwork.png" alt="BoardAtWork" className={style1.project_card_image}></img>
                   </div>
                 </div>
-                <div className={style1.project_card_bottom}>
+                <div className={style1.project_card_bottom_last}>
                  
                   <motion.button layout className={style1.project_card_bottom} style={{backgroundColor:"transparent", border:"none", margin:0, paddingTop:"0rem"}} whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://www.youtube.com/watch?v=OZhDTu3HLAY" rel="noreferrer" target="_blank"> 
                    
@@ -112,39 +177,7 @@ const Projects = () => {
                     </motion.button>
                 
                 </div>
-                <div className={style1.project_card_top}>
-                  <div className={style1.project_card_head}>
-                    <div>
-                    <motion.div 
-                        whileHover={{
-                            scale:1.1,
-                            transition: {
-                            duration: 0.2,
-                            repeat: 0
-                            }
-                    }}>
-                      <p>Fit Cheque</p> 
-                    </motion.div>
-                    </div>
-
-                  </div>
-                  <div className={style1.project_card_body}>
-                    <p>An online price-guessing game for up to 10 players built using Node.js, React, and Socket.IO. Based around 25000+ clothing articles scraped from modern fashion retailer SSENSE.</p>
-                    <img src="./fitcheque.png" alt="FitCheque" className={style1.project_card_image}></img>
-                  </div>
-                </div>
-                <div className={style1.project_card_bottom_last}>
-                  <div>
-                    
-                  <motion.button layout className={style1.project_card_bottom_last} style={{backgroundColor:"transparent", border:"none", margin:0, paddingBottom:"0rem"}} whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://github.com/Abhinav-Bala/FitCheque" rel="noreferrer" target="_blank"> 
-
-                    
-                    <a href="https://github.com/Abhinav-Bala/FitCheque" rel="noreferrer" target="_blank">
-                      Check out on Github
-                    </a>
-                    </motion.button>
-                  </div>
-                </div>
+             
                 
                 {/*
                 <div className={style1.project_card_top}>
