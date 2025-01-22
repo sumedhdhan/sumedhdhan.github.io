@@ -91,7 +91,7 @@ const Projects = () => {
                    
                   </div>
                   <div className={style1.project_card_body}>
-                    <p>Your new go-to platform for gathering job postings from WaterlooWorks, anonymously sharing job statuses, and crowd-sourcing insights..</p>     
+                    <p>Your new go-to platform for gathering job postings from WaterlooWorks, anonymously sharing job statuses, and crowdsourcing insights.</p>     
                     <img src="./watrank.jpeg" alt="Craven" className={style1.project_card_image}></img>
 
                   </div>
@@ -100,7 +100,7 @@ const Projects = () => {
                  
                   <motion.button layout className={style1.project_card_bottom} style={{backgroundColor:"transparent", border:"none", margin:0, paddingTop:"0rem"}} whileHover={{scale:1.1}} whileTap={{scale:0.9}} href="https://www.youtube.com/watch?v=OZhDTu3HLAY" rel="noreferrer" target="_blank"> 
                    
-                    <a href="https:watrank.com" rel="noreferrer" target="_blank" data-inline="true">
+                    <a href="https://watrank.com/" rel="noreferrer" target="_blank" data-inline="true">
                          Use WatRank today
                     </a>
                     
