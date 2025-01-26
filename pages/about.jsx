@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-
+import Head from 'next/head';
 import style from "../styles/About.module.css";
 import {isMobile} from 'react-device-detect';
 import { BsCodeSlash, BsCodeSquare, BsFolderFill, BsGear, BsGearFill, BsMarkdownFill, BsPenFill } from "react-icons/bs";
@@ -50,11 +50,13 @@ const About = () => {
 
   return (
     <div>
-        <title>Sumedh Dhanvanthry</title>
-    
+      <Head>
+        <title>About Me</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta name="description" content="Sumedh's personal website" />
+        <meta name="description" content="Sumedh's personal website" />  
         <link rel="icon" href="weblogo.ico" />
+        
+      </Head>
  
         
     <div className={style.about} onMouseMove={handleMouse}>

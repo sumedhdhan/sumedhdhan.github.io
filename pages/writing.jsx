@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-
+import Head from 'next/head';
 import style1 from "../styles/Project.module.css";
 import style2 from "../styles/About.module.css";
 import Substack from "../components/Substack";
@@ -18,11 +18,13 @@ const Writing = () => {
 
   return (
     <div>
-        <title>Sumedh Dhanvanthry</title>
-
+      <Head>
+        <title>My Writing</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="description" content="Sumedh's personal website" />  
         <link rel="icon" href="weblogo.ico" />
+        
+      </Head>
     
     <div className={style2.about} onMouseMove={handleMouse}>
         <div className={style1.project_container}>
