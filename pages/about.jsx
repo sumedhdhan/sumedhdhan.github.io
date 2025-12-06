@@ -166,7 +166,7 @@ const About = () => {
      
             </span>
           <span>I&apos;m a third-year undergraduate student passionate about the intelligent design and implementation of complex systems. I&apos;ve worked across the stack in  my personal
-          and professional ventures, and am currently searching for a Summer 2025 internship. </span>
+          and professional ventures. </span>
           <br></br>
       
           <span>As an avid learner, I&apos;m always looking for new opportunities to put my 
